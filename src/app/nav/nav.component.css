@@ -1,0 +1,36 @@
+.bg{
+    background-color: #0A0B0B;
+}
+
+.img-logo{
+    height: 7rem;
+    width: auto;
+}
+
+.tlog{
+    position: absolute;
+    right: 1%;
+}
+
+.ba{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.btd{
+    border-bottom: 1px solid #343a40;
+}
+
+.seleccionado{
+    border-bottom: 2px solid #0D4790;
+}
+
+.plr{
+    padding: 0.7rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.vers{
+    display: none;
+}

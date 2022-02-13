@@ -1,0 +1,17 @@
+<div class="bg">
+
+<div class="container" infiniteScroll [infiniteScrollDistance]="2"  (scrolled)="onScroll()">
+<div class="pt-4" *ngFor="let s of sShips2">
+
+    <div class="bg-b p-4">
+        <a class="text-light text-decoration-none" routerLink="{{s.url.slice(-3).replace(SsServiceService.p, '')}}">
+    <h4>{{s.name}}</h4>
+    <h6>{{s.model}}</h6>
+    </a>
+</div>
+</div>
+</div>
+
+</div>
+
+

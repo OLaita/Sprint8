@@ -1,0 +1,4 @@
+<nav class="border-top btd mt-4 d-flex align-items-center justify-content-center">
+  <a class="text-decoration-none text-light ba plr" [ngClass]="{'seleccionado': seleccionado}" (click)="cnav()" routerLink="/">HOME</a><br>
+  <a class="text-decoration-none text-light ba plr" [ngClass]="{'seleccionado': !seleccionado, 'vers': !acomp.starshipsver}" (click)="cnav()" routerLink="/starships">STARSHIPS</a>
+</nav>
